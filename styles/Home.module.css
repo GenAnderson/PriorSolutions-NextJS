@@ -1,0 +1,58 @@
+.mainContainer {
+  width: 100vw;
+  position: relative;
+}
+
+.stickyBox {
+  position: sticky;
+  top: 0;
+}
+
+.background1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.background1::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: -35%;
+  background-color: #bbb;
+  z-index: -1;
+  rotate: -45deg;
+  width: 300rem;
+  height: 70rem;
+}
+
+.servicesSection {
+  border-top: 0.1rem solid #bbb;
+  padding: 15rem 5rem;
+  background-color: white;
+}
+
+.servicesSection ul {
+  width: fit-content;
+  justify-content: center;
+  line-height: 5rem;
+  margin: auto;
+}
+
+.servicesSection li {
+  list-style: disc;
+  margin-left: 4rem;
+}
+
+.serviceGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5fr;
+}
+
+.sectionHeader {
+  display: block;
+  font-size: 3.6rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5rem;
+}

@@ -1,0 +1,19 @@
+.footerSection {
+  background-color: #bbb;
+  z-index: 1;
+  border-top: 0.1rem solid #999;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10rem 10rem 5rem 10rem;
+  margin: auto;
+  max-width: 150rem;
+  justify-self: center;
+  font-size: 1.6rem;
+}
+
+.footerSection li {
+  padding-top: 2rem;
+}

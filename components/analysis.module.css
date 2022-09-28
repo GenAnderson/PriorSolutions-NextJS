@@ -1,0 +1,48 @@
+.sectionHeader {
+  display: block;
+  font-size: 3.6rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.analysisSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  max-width: 130rem;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.4rem 0.8rem rgb(0, 20, 49);
+  margin-bottom: 15rem;
+}
+
+.photoAnalysis {
+  filter: grayscale(20%);
+  filter: brightness(60%);
+  width: 100%;
+}
+
+.analysisList {
+  padding: 2rem 4rem;
+}
+
+.analysisList li {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.analysisTextbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.gifIcon {
+  width: 3rem;
+}
